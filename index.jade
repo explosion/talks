@@ -4,5 +4,4 @@
 
 ul
     each talk, slug in public._data
-        li
-            a(href=slug)=talk.title
+        li #[a(href=slug)=talk.title], #{talk.date}
