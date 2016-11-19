@@ -1,0 +1,37 @@
+//- ----------------------------------
+//- 💥 BASE > GRID
+//- ----------------------------------
+
+//- Grid container
+
+.o-grid
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+    align-items: stretch
+    justify-content: space-between
+
+
+//- Grid column
+
+.o-grid__col
+    $grid-gutter: 2rem
+
+    margin-top: $grid-gutter
+    overflow: hidden
+    display: flex
+    flex: 0 0 100%
+    flex-direction: column
+    flex-wrap: wrap
+
+    @each $mode, $count in $grid
+        &.o-grid__col--#{$mode}
+            $percentage: calc(#{100% / $count} - #{$grid-gutter})
+            flex: 0 0 $percentage
+            max-width: $percentage
+
+    // Fix overflow issue in old browsers
+
+    & > *
+        flex-shrink: 1
+        max-width: 100%
