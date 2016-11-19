@@ -8,7 +8,6 @@ body
     background: $page-bg
     padding: 3rem
 
-
 //- Objects
 
 .o-container
@@ -19,23 +18,34 @@ body
     background: $color-back
     font-size: 2rem
 
+    &.o-slide--center
+        text-align: center
+
     a
         border-bottom: 2px solid $color-theme
 
-.o-block
+.o-block,
+p
     margin-bottom: 3rem
+
+.o-icon
+    vertical-align: middle
+    margin-right: 0.75rem
 
 
 //- Utilities
 
-.u-text-center
-    text-align: center
-
 .u-color-theme
     color: $color-theme
 
-.u-text-small
+.u-color-subtle
+    color: $color-subtle-dark
+
+.u-text-small.u-text-small
     font-size: 1.75rem
+
+.u-text-tiny.u-text-tiny
+    font-size: 1rem
 
 .u-heading
     margin-bottom: 2rem
@@ -58,9 +68,6 @@ body
             .c-list__item:before
                 content: counter(li, #{$counter}) '.'
 
-    & &
-        margin-top: 2rem
-
 
 //- List Item
 
@@ -70,6 +77,7 @@ body
     margin-left: 1.25rem
 
     &:before
+        color: $color-theme
         content: '\25CF'
         display: inline-block
         font-size: 1em
@@ -79,6 +87,9 @@ body
         text-align: right
         width: 2.5rem
         counter-increment: li
+
+    & > .o-block
+        margin-top: 2rem
 
 
 //- Code block
