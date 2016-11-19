@@ -16,9 +16,9 @@
 
 //- Slide
 
-mixin slide(...style)
-    section
-        .o-slide(class=style ? prefixArgs(style, 'o-slide') : false)&attributes(attributes)
+mixin slide(state, transition, speed)
+    section(data-state=state data-transition=transition data-transition-speed=speed)
+        .o-slide&attributes(attributes)
             block
 
 

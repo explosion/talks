@@ -4,15 +4,12 @@
 
 include ../_mixins
 
-+slide("center")
-    .u-color-theme
-        +spacy-logo
++slide("intro", "slide", "fast")
+    +spacy-logo
 
     +h(1) Designing spaCy:#[br]Industrial-strength NLP
 
     p Matthew Honnibal, #[a(href="https://spacy.io") spacy.io]
-    p
-        +date(DATA.date).u-text-small.u-color-subtle
 
 +slide
     +h(2) Like CoreNLP for Python
@@ -209,8 +206,8 @@ include ../_mixins
         +item Argument may be different types on input.
         +item Return should not be different types on output.
 
-+slide("center")
-    +h(1).u-color-theme Thanks!
++slide("outro", "zoom")
+    +h(1) Thanks!
 
     p
         a(href="https://spacy.io") spacy.io
