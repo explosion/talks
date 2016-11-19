@@ -1,7 +1,15 @@
 {
     "bothack-berlin": {
-        "title": "Bothack Berlin",
+        "title": "Introduction to spaCy",
+        "event": "Bothack Berlin",
         "date": "2016-11-19",
+        "theme": "spacy"
+    },
+
+    "pydata-berlin": {
+        "title": "Designing spaCy: Industrial-strength NLP",
+        "event": "PyData Berlin",
+        "date": "2016-05-21",
         "theme": "spacy"
     }
 }
