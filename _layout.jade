@@ -2,24 +2,32 @@
 //- 💥 LAYOUT
 //- ----------------------------------
 
+include _mixins
+
 doctype html
 html(lang="en")
     head
-        title=title
+        title
+            if DATA && DATA.title && DATA.event
+                    !=DATA.title + " - " + DATA.event
+
+            else
+                | Talks - Explosion AI
+
         meta(http-equiv="content-type" content="text/html; charset=utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
 
         link(rel="stylesheet" href="/assets/css/reveal.css")
 
-        if theme
-            link#theme(rel="stylesheet" href="/assets/css/theme-#{theme}.css")
+        if DATA && DATA.theme
+            link#theme(rel="stylesheet" href="/assets/css/theme-#{DATA.theme}.css")
 
     body
         main.reveal.o-container
             .slides.o-slides
                 !=yield
 
-        if current.source != "index"
+        if current.path[0] != "index"
             script(src="/assets/js/prism.js")
             script(src="/assets/js/reveal.js")
 
