@@ -1,0 +1,100 @@
+//- ---------------------------------
+//- 💥 BASE > COMPONENTS
+//- ----------------------------------
+
+//- List Container
+
+.c-list
+    @each $type, $counter in (numbers: decimal, letters: upper-latin, roman: lower-roman)
+        &.c-list--#{$type}
+            counter-reset: li
+
+            .c-list__item:before
+                content: counter(li, #{$counter}) '.'
+
+    & &
+        margin-top: 2rem
+
+
+//- List Item
+
+.c-list__item
+    padding-left: 2rem
+    margin-bottom: 0.5em
+    margin-left: 1.25rem
+
+    &:before
+        content: '\25CF'
+        display: inline-block
+        font-size: 1em
+        font-weight: bold
+        padding-right: 1.25rem
+        margin-left: -3.75rem
+        text-align: right
+        width: 2.5rem
+        counter-increment: li
+
+
+//- Code block
+
+.c-code-block
+    background: $color-front
+    color: $color-back
+    padding: 0.75em 0
+    border-radius: 2px
+    overflow: auto
+    width: 100%
+    max-width: 100%
+    white-space: pre
+    direction: ltr
+
+
+//- Code block content
+
+.c-code-block__content
+    display: block
+    font: normal 600 1.5rem/#{2} $font-code
+    padding: 1em 2em
+
+
+//- Inline code
+
+*:not(.c-code-block) > code
+    font: normal 600 0.8em/#{1} $font-code
+    background: $color-subtle
+    color: $color-front
+    padding: 0.1em 0.5em
+    margin: 0
+    border-radius: 1px
+
+
+//- Syntax Highlighting
+
+[class*="language-"] .token
+    &.comment, &.prolog, &.doctype, &.cdata, &.punctuation
+        color: map-get($syntax-highlighting, comment)
+
+    &.property, &.tag, &.constant, &.symbol, &.deleted
+        color: map-get($syntax-highlighting, tag)
+
+    &.boolean, &.number
+        color: map-get($syntax-highlighting, number)
+
+    &.selector, &.attr-name, &.string, &.char, &.builtin, &.inserted
+        color: map-get($syntax-highlighting, selector)
+
+    @at-root .language-css .token.string,
+    &.operator, &.entity, &.url, &.variable
+        color: map-get($syntax-highlighting, operator)
+
+    &.atrule, &.attr-value, &.function
+        color: map-get($syntax-highlighting, function)
+
+    &.regex, &.important
+        color: map-get($syntax-highlighting, regex)
+
+    &.keyword
+        color: map-get($syntax-highlighting, keyword)
+
+    &.italic
+        font-style: italic
