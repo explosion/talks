@@ -14,3 +14,20 @@ $font-primary: "Source Sans Pro", Tahoma, Geneva, sans-serif
 $font-code: 'Source Code Pro', Consolas, 'Andale Mono', Menlo, Monaco, Courier, monospace
 
 @import _base/theme
+
+
+//- Theme-specific overrides
+
+.navigate-up,
+.navigate-down
+    display: none
+
+.intro,
+.outro
+    .o-container,
+    .o-slide
+        background: transparent
+        text-align: center
+        font-weight: bold
+        color: $color-back
+        text-shadow: 5px 5px 0 darken($color-theme, 5)
