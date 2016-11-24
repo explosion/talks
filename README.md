@@ -11,7 +11,7 @@ Slides are implemented in [Jade (aka Pug)](https://www.jade-lang.org) with help 
 | Date | Topic | Event | Location |
 | --- | --- | --- | --- |
 | 2016-11-28 | *coming soon* | [AIAIAI!](https://www.facebook.com/events/1263237797030583/) | Oslo, NO |
-| 2016-11-21 | *coming soon* | [LT-Accelerate](http://www.lt-accelerate.com/) | Brussels, BE |
+| 2016-11-21 | [spaCy and NLP Innovation](lt-accelerate) | [LT-Accelerate](http://www.lt-accelerate.com/) | Brussels, BE |
 | 2016-11-19 | [Introduction to spaCy](bothack-berlin) | [Bothack](http://bothack.berlin) | Berlin, DE |
 | 2016-05-21 | [Designing spaCy: Industrial-strength NLP](pydata-berlin) | [PyData](http://pydata.org) | Berlin, DE |
 

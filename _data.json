@@ -1,4 +1,11 @@
 {
+    "lt-accelerate": {
+        "title": "spaCy and NLP Innovation",
+        "event": "LT Accelerate",
+        "date": "2016-11-21",
+        "pdf": "spaCy and NLP Innovation Matthew Honnibal.pdf"
+    },
+
     "bothack-berlin": {
         "title": "Introduction to spaCy",
         "event": "Bothack Berlin",
