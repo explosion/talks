@@ -4,7 +4,7 @@
 
 Ongoing collection of talks about spaCy and other AI-related topics.
 
-Slides are implemented in [Jade (aka Pug)](https://www.jade-lang.org) with help of [reveal.js](https://github.com/hakimel/reveal.js), and built or served by [Harp](https://harpjs.com).
+Slides are implemented in [Jade (aka Pug)](https://www.jade-lang.org) with help of [reveal.js](https://github.com/hakimel/reveal.js) (for HTML slides) and [PDFObject](https://github.com/pipwerks/PDFObject) (for PDF slides). The site is built or served by [Harp](https://harpjs.com).
 
 ## Table of contents
 

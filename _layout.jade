@@ -17,7 +17,11 @@ html(lang="en")
         meta(http-equiv="content-type" content="text/html; charset=utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
 
-        link(rel="stylesheet" href="/assets/css/reveal.css")
+        if DATA && DATA.pdf
+            link(rel="stylesheet" href="/assets/css/pdf.css")
+
+        else
+            link(rel="stylesheet" href="/assets/css/reveal.css")
 
         if DATA && DATA.theme
             link#theme(rel="stylesheet" href="/assets/css/theme-#{DATA.theme}.css")
@@ -29,15 +33,21 @@ html(lang="en")
 
         if current.path[0] != "index"
             script(src="/assets/js/prism.js")
-            script(src="/assets/js/reveal.js")
 
-            script.
-                Reveal.initialize({
-                    controls: true,
-                    progress: false,
-                    history: true,
-                    center: true,
-                    width: 1440,
-                    height: 900,
-                    margin: 0.15
-                })
+            if DATA && DATA.pdf
+                script(src="/assets/js/pdfobject.js")
+                script PDFObject.embed("#{DATA.pdf}", "body")
+
+            else
+                script(src="/assets/js/reveal.js")
+
+                script.
+                    Reveal.initialize({
+                        controls: true,
+                        progress: false,
+                        history: true,
+                        center: true,
+                        width: 1440,
+                        height: 900,
+                        margin: 0.15
+                    })
