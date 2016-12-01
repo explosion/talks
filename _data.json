@@ -1,4 +1,11 @@
 {
+    "aiaiai-oslo": {
+        "title": "The State of AI 2016",
+        "event": "AIAIAI!",
+        "date": "2016-11-28",
+        "pdf": "The State of AI 2016.pdf"
+    },
+
     "lt-accelerate": {
         "title": "spaCy and NLP Innovation",
         "event": "LT Accelerate",
