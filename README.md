@@ -10,6 +10,7 @@ Slides are implemented in [Jade (aka Pug)](https://www.jade-lang.org) with help 
 
 | Date | Topic | Event | Location |
 | --- | --- | --- | --- |
+| 2017-01-19 | *coming soon* | [Founders](https://medium.com/the-founders-blog/how-ai-will-shape-the-future-of-work-9b2f51a35a8) | Copenhagen, DK |
 | 2016-11-28 | [The State of AI 2016](aiaiai-oslo) | [AIAIAI!](https://www.facebook.com/events/1263237797030583/) | Oslo, NO |
 | 2016-11-21 | [spaCy and NLP Innovation](lt-accelerate) | [LT-Accelerate](http://www.lt-accelerate.com/) | Brussels, BE |
 | 2016-11-19 | [Introduction to spaCy](bothack-berlin) | [Bothack](http://bothack.berlin) | Berlin, DE |
