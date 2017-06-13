@@ -10,6 +10,7 @@ Slides are implemented in [Jade (aka Pug)](https://www.jade-lang.org) with help 
 
 | Date | Topic | Event | Location |
 | --- | --- | --- | --- |
+| 2017-06-13 | [Why Python is the best language for AI](pycon-israel) | [PyCon](http://www.pycon.org.il/2017/) | Tel Aviv, IL |
 | 2017-01-19 | [Teaching AI about Human Knowledge](founders-copenhagen) | [Founders](https://medium.com/the-founders-blog/how-ai-will-shape-the-future-of-work-9b2f51a35a8) | Copenhagen, DK |
 | 2016-11-28 | [The State of AI 2016](aiaiai-oslo) | [AIAIAI!](https://www.facebook.com/events/1263237797030583/) | Oslo, NO |
 | 2016-11-21 | [spaCy and NLP Innovation](lt-accelerate) | [LT-Accelerate](http://www.lt-accelerate.com/) | Brussels, BE |
