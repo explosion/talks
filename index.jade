@@ -1,9 +1,0 @@
-//- ---------------------------------
-//- 💥 TALKS
-//- ----------------------------------
-
-include _mixins
-
-ul
-    each talk, slug in public._data
-        li #[strong=talk.event]: #[a(href=slug)=talk.title] (#[+date(talk.date)])
