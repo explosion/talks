@@ -10,8 +10,8 @@ slides are available as PDFs.
 | Date | Topic | Event | Location |
 | --- | --- | --- | --- |
 | 2018-05-28 | *tba* | [Data Science Summit](http://datasciencesummit.ai/) | Tel Aviv, IL |
-| 2018-05-05 | *tba* | [PyDays](https://www.pydays.at/) | Vienna, AT |
-| 2018-04-14 | *tba* | [University of San Francisco](https://www.meetup.com/sfmachinelearning/events/249647003) | San Francisco, US |
+| 2018-05-05 | [Teaching AI about Human Knowledge](2018-05-05_Teaching-AI-about-Human-Knowledge.pdf) | [PyDays](https://www.pydays.at/) | Vienna, AT |
+| 2018-04-14 | Increasing Data Science Productivity | [University of San Francisco](https://www.meetup.com/sfmachinelearning/events/249647003) | San Francisco, US |
 | 2018-04-12 | [Rapid NLP Annotation Through Binary Decisions, Pattern Bootstrapping and Active Learning](2018-04_12__Rapid-NLP-Annotation.pdf) | [Tom Tom Founders Festival](https://tomtomfest.com/machine-learning/) | Charlottesville, US |
 | 2018-04-12 | [Embed, Encode, Attend, Predict: A four-step framework for understanding neural network approaches to Natural Language Understanding problems](2018-04-12__Embed-Encode-Attend-Predict.pdf) | [Tom Tom Founders Festival](https://tomtomfest.com/machine-learning/) | Charlottesville, US |
 | 2018-03-21 | [Supervised Learning is Great — it's Data Collection That's Broken](2018-03-21__Supervised-Learning-is-Great.pdf) | [The Ground](http://www.theground.se) | Malmö, SE |
