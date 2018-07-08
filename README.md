@@ -9,6 +9,10 @@ slides are available as PDFs.
 
 | Date | Topic | Event | Location |
 | --- | --- | --- | --- |
+| 2018-07-26 | How to Ignore Most Startup Advice and Build a Decent Software Business | [EuroPython](https://ep2018.europython.eu) | Edinburgh, UK |
+| 2018-07-20 | *tba* | ACL (NLP-OSS Workshop) | Melborune, AUS |
+| 2018-07-17 | *tba* | Machine Learning & AI Meetup | Melbourne, AUS |
+| 2018-07-14 | *tba* | Sydney NLP Mini Conference | Sydney, AUS |
 | 2018-07-07 | [Building new NLP solutions with spaCy and Prodigy](2018-07-07_Building-New-NLP-Solutions-with-spaCy-and-Prodigy.pdf) | [PyData Berlin](https://pydata.org/berlin2018/) | Berlin, DE |
 | 2018-05-28 | [Rapid NLP Annotation Through Binary Decisions, Pattern Bootstrapping and Active Learning](2018-04_12__Rapid-NLP-Annotation.pdf) | [Data Science Summit](http://datasciencesummit.ai/) | Tel Aviv, IL |
 | 2018-05-28 | [Embed, Encode, Attend, Predict: A four-step framework for understanding neural network approaches to Natural Language Understanding problems](2018-04-12__Embed-Encode-Attend-Predict.pdf) | [Data Science Summit](http://datasciencesummit.ai/) | Tel Aviv, IL |
